@@ -1,10 +1,13 @@
 import React from 'react';
-import {View} from 'react-native';
 
-// import { Container } from './styles';
+import * as S from './App.styles';
 
 const App: React.FC = () => {
-  return <View />;
+  return (
+    <S.Container>
+      <S.Title>Ola Mundo</S.Title>
+    </S.Container>
+  );
 };
 
 export default App;
