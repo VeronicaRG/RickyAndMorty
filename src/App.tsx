@@ -1,8 +1,8 @@
 import React from 'react';
-import {SafeAreaProvider} from 'react-native-safe-area-context';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
 
 import * as S from './App.styles';
-import {ThemeProvider} from './theme';
+import { ThemeProvider } from './theme';
 
 const App: React.FC = () => {
   return (
@@ -10,7 +10,7 @@ const App: React.FC = () => {
       <ThemeProvider>
         <S.Container>
           <S.StatusBar />
-          <S.Title>Ola Mundo</S.Title>
+          <S.Title>Olá Mundo</S.Title>
         </S.Container>
       </ThemeProvider>
     </SafeAreaProvider>

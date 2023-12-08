@@ -1,9 +1,9 @@
-import {StatusBar as RNStatusBar} from 'react-native';
+import { StatusBar as RNStatusBar } from 'react-native';
 import styled from 'styled-components/native';
 
 export const Container = styled.View`
   background-color: red;
-  margin-top: ${({theme}) => theme.safeArea.top}px;
+  margin-top: ${({ theme }) => theme.safeArea.top}px;
   flex: 1;
   justify-content: center;
   align-items: center;
