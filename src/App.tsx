@@ -1,12 +1,19 @@
 import React from 'react';
+import {SafeAreaProvider} from 'react-native-safe-area-context';
 
 import * as S from './App.styles';
+import {ThemeProvider} from './theme';
 
 const App: React.FC = () => {
   return (
-    <S.Container>
-      <S.Title>Ola Mundo</S.Title>
-    </S.Container>
+    <SafeAreaProvider>
+      <ThemeProvider>
+        <S.Container>
+          <S.StatusBar />
+          <S.Title>Ola Mundo</S.Title>
+        </S.Container>
+      </ThemeProvider>
+    </SafeAreaProvider>
   );
 };
 
