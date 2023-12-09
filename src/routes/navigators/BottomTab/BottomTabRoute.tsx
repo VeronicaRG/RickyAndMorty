@@ -2,9 +2,9 @@ import * as React from 'react';
 
 import { createNavigationContainerRef } from '@react-navigation/native';
 import { AnimatedTabBarNavigator } from 'react-native-animated-nav-tab-bar';
-import { Icon } from '../../../components/Icon';
-import { CharactersScreen } from '../../../screens/BottomTab/Characters';
-import { EpisodesScreen } from '../../../screens/BottomTab/Episodes';
+import { Icon } from '@components/Icon';
+import { CharactersScreen } from '@screens/BottomTab/Characters';
+import { EpisodesScreen } from '@screens/BottomTab/Episodes';
 import { appearance, tabBarOptions } from './BottomTabRoute.styles';
 import { BottomTabParams, TabBarIconProps } from './BottomTabRoute.types';
 

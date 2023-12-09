@@ -2,12 +2,12 @@ import React from 'react';
 import { IconProps } from './Icon.types';
 
 export const svgs = {
-  'home-icon': () => require('../../assets/svgs/home-icon.svg'),
-  'rick-colorful': () => require('../../assets/svgs/rick-colorful.svg'),
-  'rick-monochrome': () => require('../../assets/svgs/rick-monochrome.svg'),
-  'morty-colorful': () => require('../../assets/svgs/morty-colorful.svg'),
-  'morty-monochrome': () => require('../../assets/svgs/morty-monochrome.svg'),
-  item: () => require('../../assets/svgs/item.svg'),
+  'home-icon': () => require('@svgs/home-icon.svg'),
+  'rick-colorful': () => require('@svgs/rick-colorful.svg'),
+  'rick-monochrome': () => require('@svgs/rick-monochrome.svg'),
+  'morty-colorful': () => require('@svgs/morty-colorful.svg'),
+  'morty-monochrome': () => require('@svgs/morty-monochrome.svg'),
+  item: () => require('@svgs/item.svg'),
 };
 
 export const Icon: React.FC<IconProps> = ({ name = 'item', ...rest }) => {

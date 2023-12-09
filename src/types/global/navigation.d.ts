@@ -1,4 +1,4 @@
-import { RouteParams } from '../../routes/routes.types';
+import { RouteParams } from '@src/routes';
 
 declare global {
   namespace ReactNavigation {
