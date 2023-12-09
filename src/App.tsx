@@ -6,13 +6,17 @@ import { ThemeProvider } from '@src/theme';
 import { Routes } from '@src/routes';
 
 import * as S from './App.styles';
+import { ApolloProvider } from '@apollo/client';
+import { apolloClient } from './services/api';
 
 const App: React.FC = () => {
   return (
     <SafeAreaProvider>
       <S.StatusBar />
       <ThemeProvider>
-        <Routes />
+        <ApolloProvider client={apolloClient}>
+          <Routes />
+        </ApolloProvider>
       </ThemeProvider>
     </SafeAreaProvider>
   );

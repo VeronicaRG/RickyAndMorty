@@ -9,6 +9,7 @@ module.exports = {
           '@src': './src/',
           '@svgs': './src/assets/svgs/',
           '@screens': './src/screens/',
+          '@core-types': './src/types/',
           '@components': './src/components/',
         },
       },

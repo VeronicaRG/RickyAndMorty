@@ -3,7 +3,16 @@ import * as S from './Characters.styles';
 import { useCharactersScreen } from './Characters.logic';
 
 export const CharactersScreen: React.FC = () => {
-  const {} = useCharactersScreen();
+  const { data } = useCharactersScreen();
 
-  return <S.Container />;
+  return (
+    <S.Container>
+      {data &&
+        data.characters?.results?.map(character => (
+          <S.CharacterName key={character?.id}>
+            {character?.name}
+          </S.CharacterName>
+        ))}
+    </S.Container>
+  );
 };

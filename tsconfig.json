@@ -2,6 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
+      "@core-types/*":["./src/types/*"],
       "@svgs/*":["./src/assets/svgs/*"],
       "@components/*":["./src/components/*"],
       "@screens/*":["./src/screens/*"],
