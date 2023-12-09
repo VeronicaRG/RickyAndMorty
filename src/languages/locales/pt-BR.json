@@ -1,0 +1,8 @@
+{
+  "routes": {
+    "bottomTab": {
+      "character": "Personagens",
+      "episodes": "Episódios"
+    }
+  }
+}

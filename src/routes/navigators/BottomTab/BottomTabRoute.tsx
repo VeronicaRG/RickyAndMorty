@@ -7,6 +7,7 @@ import { CharactersScreen } from '@screens/BottomTab/Characters';
 import { EpisodesScreen } from '@screens/BottomTab/Episodes';
 import { appearance, tabBarOptions } from './BottomTabRoute.styles';
 import { BottomTabParams, TabBarIconProps } from './BottomTabRoute.types';
+import { useTranslation } from 'react-i18next';
 
 const { Navigator, Screen } = AnimatedTabBarNavigator<BottomTabParams>();
 
@@ -21,17 +22,25 @@ const EpisodesIcon: React.FC<TabBarIconProps> = ({ focused, color }) => (
 );
 
 export const BottomTabNavigator: React.FC = () => {
+  const { t } = useTranslation('routes');
+
   return (
     <Navigator appearance={appearance} tabBarOptions={tabBarOptions}>
       <Screen
         name="Characters"
         component={CharactersScreen}
-        options={{ tabBarLabel: 'Personagens', tabBarIcon: CharactersIcon }}
+        options={{
+          tabBarLabel: t('bottomTab.character'),
+          tabBarIcon: CharactersIcon,
+        }}
       />
       <Screen
         name="Episodes"
         component={EpisodesScreen}
-        options={{ tabBarLabel: 'Episódios', tabBarIcon: EpisodesIcon }}
+        options={{
+          tabBarLabel: t('bottomTab.episodes'),
+          tabBarIcon: EpisodesIcon,
+        }}
       />
     </Navigator>
   );

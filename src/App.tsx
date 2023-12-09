@@ -1,9 +1,11 @@
 import React from 'react';
-import { SafeAreaProvider } from 'react-native-safe-area-context';
+import '@src/languages';
 
-import * as S from './App.styles';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { ThemeProvider } from '@src/theme';
 import { Routes } from '@src/routes';
+
+import * as S from './App.styles';
 
 const App: React.FC = () => {
   return (

@@ -1,7 +1,15 @@
 {
+  "i18n-ally.dirStructure": "auto",
+  "i18n-ally.sourceLanguage": "pt-BR",
+  "i18n-ally.displayLanguage": "pt-BR",
+  "i18n-ally.keystyle": "nested",
+  "i18n-ally.namespace": true,
+  "i18n-ally.defaultNamespace": "translation",
+  "i18n-ally.localesPaths": [ "src/languages/locales" ],
   "cSpell.language": "en,pt_BR",
   "cSpell.words": [
     "morty",
-    "Morty"
+    "Morty",
+    "pluralrules"
   ],
 }
