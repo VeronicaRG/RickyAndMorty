@@ -2,7 +2,7 @@ import { TextStyle, ViewStyle } from 'react-native';
 
 export type TabBarIconProps = { color: string; focused: boolean };
 
-export type BottomTabParams = {
+export type BottomTabNavigatorParams = {
   Characters: undefined;
   Episodes: undefined;
 };

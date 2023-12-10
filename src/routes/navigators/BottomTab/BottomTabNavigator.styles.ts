@@ -1,6 +1,6 @@
 import { IAppearanceOptions, TabElementDisplayOptions } from 'react-native-animated-nav-tab-bar';
 
-import { TabBarOptions } from './BottomTabRoute.types';
+import { TabBarOptions } from './BottomTabNavigator.types';
 
 export const appearance: Partial<IAppearanceOptions> = {
   whenActiveShow: TabElementDisplayOptions.BOTH,
