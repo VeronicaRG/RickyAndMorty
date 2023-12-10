@@ -218,6 +218,7 @@ export type GetCharactersQuery = {
       __typename?: 'Character';
       id?: string | null;
       name?: string | null;
+      image?: string | null;
     } | null> | null;
   } | null;
 };
@@ -269,6 +270,7 @@ export const GetCharactersDocument = {
                     selections: [
                       { kind: 'Field', name: { kind: 'Name', value: 'id' } },
                       { kind: 'Field', name: { kind: 'Name', value: 'name' } },
+                      { kind: 'Field', name: { kind: 'Name', value: 'image' } },
                     ],
                   },
                 },

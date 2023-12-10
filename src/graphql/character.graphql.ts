@@ -6,6 +6,7 @@ query GetCharacters($filter: FilterCharacter) {
     results {
       id
       name
+      image
     }
   }
 }
