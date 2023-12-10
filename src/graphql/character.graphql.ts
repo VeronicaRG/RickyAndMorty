@@ -1,8 +1,8 @@
 import { gql } from '@core-types/graphql';
 
 export const GET_CHARACTERS = gql(`
-  query GetCharacters($filter: FilterCharacter) {
-    characters(filter: $filter) {
+  query GetCharacters($page: Int, $filter: FilterCharacter) {
+    characters(page: $page, filter: $filter) {
       results {
         id
         name
@@ -10,6 +10,9 @@ export const GET_CHARACTERS = gql(`
         species
         gender
         status
+      }
+      info {
+        next
       }
     }
   }

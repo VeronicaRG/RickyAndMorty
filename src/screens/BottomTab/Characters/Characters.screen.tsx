@@ -6,7 +6,8 @@ import { ListRenderItem } from '@shopify/flash-list';
 import { Character } from '@core-types/graphql/graphql';
 
 export const CharactersScreen: React.FC = () => {
-  const { characters, handlePressCharacter } = useCharactersScreen();
+  const { characters, handlePressCharacter, onCharactersListEndReached, hasMoreToLoad } =
+    useCharactersScreen();
 
   const RenderCharacter: ListRenderItem<Partial<Character>> = useCallback(
     ({ index, item }) => (
@@ -25,6 +26,8 @@ export const CharactersScreen: React.FC = () => {
         estimatedItemSize={200}
         renderItem={RenderCharacter}
         showsVerticalScrollIndicator={false}
+        onEndReached={onCharactersListEndReached}
+        ListFooterComponent={hasMoreToLoad ? <S.Loading /> : undefined}
       />
     </S.Container>
   );

@@ -198,6 +198,7 @@ export type QueryLocationsByIdsArgs = {
 };
 
 export type GetCharactersQueryVariables = Exact<{
+  page?: InputMaybe<Scalars['Int']['input']>;
   filter?: InputMaybe<FilterCharacter>;
 }>;
 
@@ -214,6 +215,7 @@ export type GetCharactersQuery = {
       gender?: string | null;
       status?: string | null;
     } | null> | null;
+    info?: { __typename?: 'Info'; next?: number | null } | null;
   } | null;
 };
 
@@ -252,6 +254,11 @@ export const GetCharactersDocument = {
       variableDefinitions: [
         {
           kind: 'VariableDefinition',
+          variable: { kind: 'Variable', name: { kind: 'Name', value: 'page' } },
+          type: { kind: 'NamedType', name: { kind: 'Name', value: 'Int' } },
+        },
+        {
+          kind: 'VariableDefinition',
           variable: { kind: 'Variable', name: { kind: 'Name', value: 'filter' } },
           type: { kind: 'NamedType', name: { kind: 'Name', value: 'FilterCharacter' } },
         },
@@ -263,6 +270,11 @@ export const GetCharactersDocument = {
             kind: 'Field',
             name: { kind: 'Name', value: 'characters' },
             arguments: [
+              {
+                kind: 'Argument',
+                name: { kind: 'Name', value: 'page' },
+                value: { kind: 'Variable', name: { kind: 'Name', value: 'page' } },
+              },
               {
                 kind: 'Argument',
                 name: { kind: 'Name', value: 'filter' },
@@ -285,6 +297,14 @@ export const GetCharactersDocument = {
                       { kind: 'Field', name: { kind: 'Name', value: 'gender' } },
                       { kind: 'Field', name: { kind: 'Name', value: 'status' } },
                     ],
+                  },
+                },
+                {
+                  kind: 'Field',
+                  name: { kind: 'Name', value: 'info' },
+                  selectionSet: {
+                    kind: 'SelectionSet',
+                    selections: [{ kind: 'Field', name: { kind: 'Name', value: 'next' } }],
                   },
                 },
               ],

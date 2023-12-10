@@ -18,9 +18,17 @@ export const ColumnSeparator = styled.View<{ position: 'left' | 'right' }>`
 export const CharacterList = styled(FlashList<Partial<Character>>).attrs(({ theme }) => {
   return {
     contentContainerStyle: {
+      paddingHorizontal: 16,
       paddingTop: theme.safeArea.top,
       paddingBottom: theme.safeArea.bottom + Platform.select({ ios: 88, default: 108 }),
-      paddingHorizontal: 16,
     },
   };
 })``;
+
+export const Loading = styled.ActivityIndicator.attrs({
+  color: '#FFFFFF',
+  size: 'large',
+})`
+  margin: 24px;
+  margin-top: 32px;
+`;
