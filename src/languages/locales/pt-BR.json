@@ -4,5 +4,9 @@
       "character": "Personagens",
       "episodes": "Episódios"
     }
+  },
+  "common": {
+    "from": "de",
+    "locale": "pt-BR"
   }
 }

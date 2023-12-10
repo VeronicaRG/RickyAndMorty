@@ -4,5 +4,9 @@
       "character": "Characters",
       "episodes": "Episodes"
     }
+  },
+  "common": {
+    "from": "from",
+    "locale": "en-US"
   }
 }
