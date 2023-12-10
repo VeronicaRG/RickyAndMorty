@@ -11,9 +11,7 @@ const { Navigator, Screen, Group } = createNativeStackNavigator<RouteParams>();
 export const Routes: React.FC = () => {
   return (
     <NavigationContainer>
-      <Navigator
-        screenOptions={mainNavigatorScreenOptions}
-        initialRouteName={'BottomTabNavigator'}>
+      <Navigator screenOptions={mainNavigatorScreenOptions} initialRouteName={'BottomTabNavigator'}>
         <Group>
           <Screen name="BottomTabNavigator" component={BottomTabNavigator} />
         </Group>

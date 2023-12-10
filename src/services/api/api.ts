@@ -1,9 +1,4 @@
-import {
-  ApolloClient,
-  InMemoryCache,
-  createHttpLink,
-  from,
-} from '@apollo/client';
+import { ApolloClient, InMemoryCache, createHttpLink, from } from '@apollo/client';
 import { API_ADDRESS } from '@env';
 
 const httpLink = createHttpLink({ uri: API_ADDRESS });

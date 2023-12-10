@@ -1,7 +1,4 @@
-import {
-  IAppearanceOptions,
-  TabElementDisplayOptions,
-} from 'react-native-animated-nav-tab-bar';
+import { IAppearanceOptions, TabElementDisplayOptions } from 'react-native-animated-nav-tab-bar';
 
 import { TabBarOptions } from './BottomTabRoute.types';
 
