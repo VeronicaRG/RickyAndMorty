@@ -210,7 +210,35 @@ export type GetCharactersQuery = {
       id?: string | null;
       name?: string | null;
       image?: string | null;
+      species?: string | null;
+      gender?: string | null;
+      status?: string | null;
     } | null> | null;
+  } | null;
+};
+
+export type GetCharacterDetailsQueryVariables = Exact<{
+  characterId: Scalars['ID']['input'];
+}>;
+
+export type GetCharacterDetailsQuery = {
+  __typename?: 'Query';
+  character?: {
+    __typename?: 'Character';
+    name?: string | null;
+    image?: string | null;
+    gender?: string | null;
+    status?: string | null;
+    species?: string | null;
+    origin?: { __typename?: 'Location'; name?: string | null } | null;
+    location?: { __typename?: 'Location'; name?: string | null } | null;
+    episode: Array<{
+      __typename?: 'Episode';
+      id?: string | null;
+      air_date?: string | null;
+      episode?: string | null;
+      created?: string | null;
+    } | null>;
   } | null;
 };
 
@@ -253,6 +281,9 @@ export const GetCharactersDocument = {
                       { kind: 'Field', name: { kind: 'Name', value: 'id' } },
                       { kind: 'Field', name: { kind: 'Name', value: 'name' } },
                       { kind: 'Field', name: { kind: 'Name', value: 'image' } },
+                      { kind: 'Field', name: { kind: 'Name', value: 'species' } },
+                      { kind: 'Field', name: { kind: 'Name', value: 'gender' } },
+                      { kind: 'Field', name: { kind: 'Name', value: 'status' } },
                     ],
                   },
                 },
@@ -264,3 +295,78 @@ export const GetCharactersDocument = {
     },
   ],
 } as unknown as DocumentNode<GetCharactersQuery, GetCharactersQueryVariables>;
+export const GetCharacterDetailsDocument = {
+  kind: 'Document',
+  definitions: [
+    {
+      kind: 'OperationDefinition',
+      operation: 'query',
+      name: { kind: 'Name', value: 'GetCharacterDetails' },
+      variableDefinitions: [
+        {
+          kind: 'VariableDefinition',
+          variable: { kind: 'Variable', name: { kind: 'Name', value: 'characterId' } },
+          type: {
+            kind: 'NonNullType',
+            type: { kind: 'NamedType', name: { kind: 'Name', value: 'ID' } },
+          },
+        },
+      ],
+      selectionSet: {
+        kind: 'SelectionSet',
+        selections: [
+          {
+            kind: 'Field',
+            name: { kind: 'Name', value: 'character' },
+            arguments: [
+              {
+                kind: 'Argument',
+                name: { kind: 'Name', value: 'id' },
+                value: { kind: 'Variable', name: { kind: 'Name', value: 'characterId' } },
+              },
+            ],
+            selectionSet: {
+              kind: 'SelectionSet',
+              selections: [
+                { kind: 'Field', name: { kind: 'Name', value: 'name' } },
+                { kind: 'Field', name: { kind: 'Name', value: 'image' } },
+                { kind: 'Field', name: { kind: 'Name', value: 'gender' } },
+                { kind: 'Field', name: { kind: 'Name', value: 'status' } },
+                { kind: 'Field', name: { kind: 'Name', value: 'species' } },
+                {
+                  kind: 'Field',
+                  name: { kind: 'Name', value: 'origin' },
+                  selectionSet: {
+                    kind: 'SelectionSet',
+                    selections: [{ kind: 'Field', name: { kind: 'Name', value: 'name' } }],
+                  },
+                },
+                {
+                  kind: 'Field',
+                  name: { kind: 'Name', value: 'location' },
+                  selectionSet: {
+                    kind: 'SelectionSet',
+                    selections: [{ kind: 'Field', name: { kind: 'Name', value: 'name' } }],
+                  },
+                },
+                {
+                  kind: 'Field',
+                  name: { kind: 'Name', value: 'episode' },
+                  selectionSet: {
+                    kind: 'SelectionSet',
+                    selections: [
+                      { kind: 'Field', name: { kind: 'Name', value: 'id' } },
+                      { kind: 'Field', name: { kind: 'Name', value: 'air_date' } },
+                      { kind: 'Field', name: { kind: 'Name', value: 'episode' } },
+                      { kind: 'Field', name: { kind: 'Name', value: 'created' } },
+                    ],
+                  },
+                },
+              ],
+            },
+          },
+        ],
+      },
+    },
+  ],
+} as unknown as DocumentNode<GetCharacterDetailsQuery, GetCharacterDetailsQueryVariables>;

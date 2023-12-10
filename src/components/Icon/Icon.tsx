@@ -2,6 +2,7 @@ import React from 'react';
 import { IconProps } from './Icon.types';
 
 export const svgs = {
+  'arrow-left': () => require('@svgs/arrow-left.svg'),
   'home-icon': () => require('@svgs/home-icon.svg'),
   'rick-colorful': () => require('@svgs/rick-colorful.svg'),
   'rick-monochrome': () => require('@svgs/rick-monochrome.svg'),

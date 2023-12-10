@@ -5,6 +5,41 @@
       "episodes": "Episodes"
     }
   },
+  "characterDetails": {
+    "property": "Properties",
+    "property_whereabout": "Whereabout",
+    "property_featuredChapters": "Featured Chapters",
+    "whereabout": "Whereabout",
+    "chapters": "Featured Chapters",
+    "properties": {
+      "type": {
+        "gender": "Gender",
+        "specie": "Specie",
+        "status": "Status",
+        "origin": "Origin",
+        "location": "Location"
+      },
+      "value": {
+        "gender": "Unknown",
+        "gender_male": "Male",
+        "gender_female": "Female",
+        "specie": "Unknown",
+        "specie_human": "Human",
+        "specie_alien": "Alien",
+        "status": "Unknown",
+        "status_alive": "Alive",
+        "status_dead": "Died",
+        "origin": {
+          "unknown":"Unknown",
+          "know": "{{origin}}"
+        },
+        "location": {
+          "unknown":"Unknown",
+          "know": "{{location}}"
+        }
+      }
+    }
+  },
   "common": {
     "from": "from",
     "locale": "en-US"

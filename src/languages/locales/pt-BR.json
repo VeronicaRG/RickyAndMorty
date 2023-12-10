@@ -5,6 +5,41 @@
       "episodes": "Episódios"
     }
   },
+  "characterDetails": {
+    "property": "Propriedades",
+    "property_whereabout": "Paradeiro",
+    "property_featuredChapters": "Episódios",
+    "whereabout": "Paradeiro",
+    "chapters": "Episódios",
+    "properties": {
+      "type": {
+        "gender": "Gênero",
+        "specie": "Tipo",
+        "status": "Status",
+        "origin": "Origem",
+        "location": "Localização"
+      },
+      "value": {
+        "gender": "Desconhecido",
+        "gender_male": "Masculino",
+        "gender_female": "Feminino",
+        "specie": "Desconhecida",
+        "specie_human": "Humano",
+        "specie_alien": "Alienígena",
+        "status": "Desconhecido",
+        "status_alive": "Vivo",
+        "status_dead": "Morto",
+        "origin": {
+          "unknown":"Desconhecida",
+          "know": "{{origin}}"
+        },
+        "location": {
+          "unknown":"Desconhecida",
+          "know": "{{location}}"
+        }
+      }
+    }
+  },
   "common": {
     "from": "de",
     "locale": "pt-BR"
