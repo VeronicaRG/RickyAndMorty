@@ -2,7 +2,8 @@
   "routes": {
     "bottomTab": {
       "character": "Characters",
-      "episodes": "Episodes"
+      "episodes": "Episodes",
+      "favorites": "Favorites"
     }
   },
   "characterDetails": {
