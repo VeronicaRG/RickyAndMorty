@@ -1,4 +1,6 @@
 import React from 'react';
+
+if (__DEV__) require('@src/tools/reactotron');
 import '@src/languages';
 
 import { SafeAreaProvider } from 'react-native-safe-area-context';
