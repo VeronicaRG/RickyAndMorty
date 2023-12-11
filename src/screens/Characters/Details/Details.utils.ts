@@ -1,7 +1,6 @@
-import { Character, Episode, GetCharacterDetailsQuery, Maybe } from '@core-types/graphql';
+import { Character, Episode, GetCharacterDetailsQuery } from '@core-types/graphql';
 import { i18n } from '@src/languages';
-import { formatDate } from '@src/utils/formatters';
-import { parse } from 'date-fns';
+import { convertAirDateToDateString, formatDate } from '@src/utils/formatters';
 
 export const createListProperties = (
   character: GetCharacterDetailsQuery['character'] | Partial<Character>,
@@ -84,9 +83,4 @@ export const createListProperties = (
   };
 
   return [properties, whereabout, chapters];
-};
-
-const convertAirDateToDateString = (airDate?: Maybe<string>) => {
-  if (!airDate) return '';
-  return parse(airDate, 'MMMM d, yyyy', new Date()).toISOString();
 };

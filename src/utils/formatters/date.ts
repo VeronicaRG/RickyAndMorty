@@ -1,5 +1,6 @@
+import { Maybe } from '@core-types/graphql';
 import { DATE_LOCALES } from '@src/languages';
-import { format } from 'date-fns';
+import { format, parse } from 'date-fns';
 import i18next from 'i18next';
 
 type DateFormats = '[day] [month] [year]';
@@ -17,4 +18,9 @@ export const formatDate = ({ date: stringDate, format: type }: FormatDateParams)
     default:
       return stringDate;
   }
+};
+
+export const convertAirDateToDateString = (airDate?: Maybe<string>) => {
+  if (!airDate) return '';
+  return parse(airDate, 'MMMM d, yyyy', new Date()).toISOString();
 };

@@ -30,11 +30,11 @@
         "status_alive": "Alive",
         "status_dead": "Died",
         "origin": {
-          "unknown":"Unknown",
+          "unknown": "Unknown",
           "know": "{{origin}}"
         },
         "location": {
-          "unknown":"Unknown",
+          "unknown": "Unknown",
           "know": "{{location}}"
         }
       }
@@ -43,5 +43,8 @@
   "common": {
     "from": "from",
     "locale": "en-US"
+  },
+  "EpisodeDetails": {
+    "characters": "Principals characters"
   }
 }

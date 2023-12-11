@@ -2,11 +2,12 @@ import React from 'react';
 import { IconProps } from './Icon.types';
 
 export const svgs = {
-  'arrow-left': () => require('@svgs/arrow-left.svg'),
+  plus: () => require('@svgs/plus.svg'),
   'home-icon': () => require('@svgs/home-icon.svg'),
+  'arrow-left': () => require('@svgs/arrow-left.svg'),
   'rick-colorful': () => require('@svgs/rick-colorful.svg'),
-  'rick-monochrome': () => require('@svgs/rick-monochrome.svg'),
   'morty-colorful': () => require('@svgs/morty-colorful.svg'),
+  'rick-monochrome': () => require('@svgs/rick-monochrome.svg'),
   'morty-monochrome': () => require('@svgs/morty-monochrome.svg'),
   item: () => require('@svgs/item.svg'),
 };

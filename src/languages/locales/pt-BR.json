@@ -30,11 +30,11 @@
         "status_alive": "Vivo",
         "status_dead": "Morto",
         "origin": {
-          "unknown":"Desconhecida",
+          "unknown": "Desconhecida",
           "know": "{{origin}}"
         },
         "location": {
-          "unknown":"Desconhecida",
+          "unknown": "Desconhecida",
           "know": "{{location}}"
         }
       }
@@ -43,5 +43,8 @@
   "common": {
     "from": "de",
     "locale": "pt-BR"
+  },
+  "EpisodeDetails": {
+    "characters": "Principais personages"
   }
 }

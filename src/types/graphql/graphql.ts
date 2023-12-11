@@ -244,6 +244,30 @@ export type GetCharacterDetailsQuery = {
   } | null;
 };
 
+export type GetEpisodesQueryVariables = Exact<{
+  page?: InputMaybe<Scalars['Int']['input']>;
+}>;
+
+export type GetEpisodesQuery = {
+  __typename?: 'Query';
+  episodes?: {
+    __typename?: 'Episodes';
+    results?: Array<{
+      __typename?: 'Episode';
+      id?: string | null;
+      name?: string | null;
+      episode?: string | null;
+      air_date?: string | null;
+      characters: Array<{
+        __typename?: 'Character';
+        id?: string | null;
+        image?: string | null;
+      } | null>;
+    } | null> | null;
+    info?: { __typename?: 'Info'; next?: number | null } | null;
+  } | null;
+};
+
 export const GetCharactersDocument = {
   kind: 'Document',
   definitions: [
@@ -390,3 +414,73 @@ export const GetCharacterDetailsDocument = {
     },
   ],
 } as unknown as DocumentNode<GetCharacterDetailsQuery, GetCharacterDetailsQueryVariables>;
+export const GetEpisodesDocument = {
+  kind: 'Document',
+  definitions: [
+    {
+      kind: 'OperationDefinition',
+      operation: 'query',
+      name: { kind: 'Name', value: 'GetEpisodes' },
+      variableDefinitions: [
+        {
+          kind: 'VariableDefinition',
+          variable: { kind: 'Variable', name: { kind: 'Name', value: 'page' } },
+          type: { kind: 'NamedType', name: { kind: 'Name', value: 'Int' } },
+        },
+      ],
+      selectionSet: {
+        kind: 'SelectionSet',
+        selections: [
+          {
+            kind: 'Field',
+            name: { kind: 'Name', value: 'episodes' },
+            arguments: [
+              {
+                kind: 'Argument',
+                name: { kind: 'Name', value: 'page' },
+                value: { kind: 'Variable', name: { kind: 'Name', value: 'page' } },
+              },
+            ],
+            selectionSet: {
+              kind: 'SelectionSet',
+              selections: [
+                {
+                  kind: 'Field',
+                  name: { kind: 'Name', value: 'results' },
+                  selectionSet: {
+                    kind: 'SelectionSet',
+                    selections: [
+                      { kind: 'Field', name: { kind: 'Name', value: 'id' } },
+                      { kind: 'Field', name: { kind: 'Name', value: 'name' } },
+                      { kind: 'Field', name: { kind: 'Name', value: 'episode' } },
+                      { kind: 'Field', name: { kind: 'Name', value: 'air_date' } },
+                      {
+                        kind: 'Field',
+                        name: { kind: 'Name', value: 'characters' },
+                        selectionSet: {
+                          kind: 'SelectionSet',
+                          selections: [
+                            { kind: 'Field', name: { kind: 'Name', value: 'id' } },
+                            { kind: 'Field', name: { kind: 'Name', value: 'image' } },
+                          ],
+                        },
+                      },
+                    ],
+                  },
+                },
+                {
+                  kind: 'Field',
+                  name: { kind: 'Name', value: 'info' },
+                  selectionSet: {
+                    kind: 'SelectionSet',
+                    selections: [{ kind: 'Field', name: { kind: 'Name', value: 'next' } }],
+                  },
+                },
+              ],
+            },
+          },
+        ],
+      },
+    },
+  ],
+} as unknown as DocumentNode<GetEpisodesQuery, GetEpisodesQueryVariables>;
