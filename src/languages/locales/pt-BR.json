@@ -47,5 +47,15 @@
   },
   "EpisodeDetails": {
     "characters": "Principais personages"
+  },
+  "favoriteScreen": {
+    "favorite_characters": {
+      "label": "Personages favoritos",
+      "empty_button_label": "Adicione seus personages favoritos"
+    },
+    "favorite_episodes": {
+      "label": "Episódios favoritos",
+      "empty_button_label": "Adicione seus episódios favoritos"
+    }
   }
 }

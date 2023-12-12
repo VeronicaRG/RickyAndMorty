@@ -4,11 +4,20 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import { EpisodeItem, SeasonDetails } from './Episodes.types';
 import { isTruthy } from '@src/utils/validation/isTruthy';
 import { getImageUrlFromImageData, getSeasonData, getSeasonsFromResults } from './Episodes.utils';
+import { useAppSelector } from '@src/hooks/redux';
+import { useDispatch } from 'react-redux';
+import { addEpisode, removeEpisode } from '@src/redux/store/favorites';
+import { DeepPartial } from '@apollo/client/utilities';
 
 export const useEpisodesScreen = () => {
   const page = useRef(0);
+
   const [hasMoreToLoad, setHasMoreToLoad] = useState(false);
   const [episodes, setEpisodes] = useState<EpisodeItem[]>([]);
+
+  const dispatch = useDispatch();
+  const favoriteEpisodes = useAppSelector(state => state.favorites.episodes);
+  const favoriteEpisodesIds = favoriteEpisodes.map(episode => episode.id);
 
   const [getEpisodes] = useLazyQuery(GET_EPISODES, {
     onCompleted: async ({ episodes: fetchedEpisodes }) => {
@@ -39,9 +48,25 @@ export const useEpisodesScreen = () => {
     getEpisodes({ variables: { page: page.current } });
   }, [getEpisodes]);
 
+  const handleToggleFavorite = useCallback(
+    (selectedEpisode: DeepPartial<EpisodeItem>) =>
+      dispatch(
+        favoriteEpisodes.find(episode => episode.id === selectedEpisode.id)
+          ? removeEpisode(selectedEpisode.id!)
+          : addEpisode(selectedEpisode),
+      ),
+    [dispatch, favoriteEpisodes],
+  );
+
   useEffect(() => {
     getEpisodes({ variables: { page: page.current } });
   }, [getEpisodes]);
 
-  return { episodes, hasMoreToLoad, onEpisodesListEndReached };
+  return {
+    episodes,
+    hasMoreToLoad,
+    favoriteEpisodesIds,
+    handleToggleFavorite,
+    onEpisodesListEndReached,
+  };
 };

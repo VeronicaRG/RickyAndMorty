@@ -227,6 +227,7 @@ export type GetCharacterDetailsQuery = {
   __typename?: 'Query';
   character?: {
     __typename?: 'Character';
+    id?: string | null;
     name?: string | null;
     image?: string | null;
     gender?: string | null;
@@ -372,6 +373,7 @@ export const GetCharacterDetailsDocument = {
             selectionSet: {
               kind: 'SelectionSet',
               selections: [
+                { kind: 'Field', name: { kind: 'Name', value: 'id' } },
                 { kind: 'Field', name: { kind: 'Name', value: 'name' } },
                 { kind: 'Field', name: { kind: 'Name', value: 'image' } },
                 { kind: 'Field', name: { kind: 'Name', value: 'gender' } },

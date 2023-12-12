@@ -1,5 +1,4 @@
 import { Maybe } from '@core-types/graphql';
-import { Platform } from 'react-native';
 import FastImage from 'react-native-fast-image';
 import styled from 'styled-components/native';
 
@@ -18,15 +17,6 @@ export const Container = styled.View`
   flex: 1;
   padding-top: 10px;
   background-color: #443c3a;
-`;
-
-export const BackButton = styled.TouchableOpacity`
-  width: 36px;
-  height: 36px;
-  margin-left: 16px;
-  margin-bottom: 8px;
-  justify-content: center;
-  margin-top: ${({ theme }) => Platform.select({ ios: 0, default: theme.safeArea.top })}px;
 `;
 
 export const ScrollView = styled.ScrollView.attrs(({ theme }) => {

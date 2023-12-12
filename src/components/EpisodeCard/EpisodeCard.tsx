@@ -4,14 +4,27 @@ import * as S from './EpisodeCard.styles';
 import { EpisodeCardProps } from './EpisodeCard.types';
 import { convertAirDateToDateString, formatDate } from '@src/utils/formatters';
 import { i18n } from '@src/languages';
-export const EpisodeCard: React.FC<EpisodeCardProps> = ({ episode }) => {
+import { FavoriteIcon } from '@components/FavoriteIcon';
+export const EpisodeCard: React.FC<EpisodeCardProps> = ({
+  episode,
+  isFavorite,
+  handlePressFavorite,
+}) => {
   const { name, image, air_date, episode: episodeName, characters } = episode;
 
   return (
     <S.Card>
       <S.Image source={{ uri: image }} />
       <S.InfoContainer>
-        <S.Label>{name}</S.Label>
+        <S.IconWrapper>
+          <S.Label>{name}</S.Label>
+          <FavoriteIcon
+            widthIcon={20}
+            heightIcon={20}
+            isFavorite={isFavorite}
+            handlePressFavorite={handlePressFavorite}
+          />
+        </S.IconWrapper>
         <S.Property>{episodeName}</S.Property>
         <S.Property>
           {formatDate({

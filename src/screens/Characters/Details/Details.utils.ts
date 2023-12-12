@@ -1,9 +1,10 @@
+import { DeepPartial } from '@core-types/global/utils';
 import { Character, Episode, GetCharacterDetailsQuery } from '@core-types/graphql';
 import { i18n } from '@src/languages';
 import { convertAirDateToDateString, formatDate } from '@src/utils/formatters';
 
 export const createListProperties = (
-  character: GetCharacterDetailsQuery['character'] | Partial<Character>,
+  character: GetCharacterDetailsQuery['character'] | DeepPartial<Character>,
 ) => {
   if (!character) return [];
   const {

@@ -23,7 +23,7 @@ const EpisodesIcon: React.FC<TabBarIconProps> = ({ focused }) => (
 );
 
 const FavoritesIcon: React.FC<TabBarIconProps> = ({ focused }) => (
-  <Icon name={focused ? 'fav-colorful' : 'fav-monochrome'} />
+  <Icon color={'#000'} name={focused ? 'fav-colorful' : 'fav-monochrome'} />
 );
 
 export const BottomTabNavigator: React.FC = () => {

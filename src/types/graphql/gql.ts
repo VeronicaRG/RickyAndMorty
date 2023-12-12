@@ -14,7 +14,7 @@ import { TypedDocumentNode as DocumentNode } from '@graphql-typed-document-node/
 const documents = {
   '\n  query GetCharacters($page: Int, $filter: FilterCharacter) {\n    characters(page: $page, filter: $filter) {\n      results {\n        id\n        name\n        image\n        species\n        gender\n        status\n      }\n      info {\n        next\n      }\n    }\n  }\n':
     types.GetCharactersDocument,
-  '\n  query GetCharacterDetails($characterId: ID!) {\n    character(id: $characterId) {\n      name\n      image\n      gender\n      status\n      species\n      origin {\n        name\n      }\n      location {\n        name\n      }\n      episode {\n        id\n        air_date\n        episode\n        created\n      }\n    }\n  }\n':
+  '\n  query GetCharacterDetails($characterId: ID!) {\n    character(id: $characterId) {\n      id\n      name\n      image\n      gender\n      status\n      species\n      origin {\n        name\n      }\n      location {\n        name\n      }\n      episode {\n        id\n        air_date\n        episode\n        created\n      }\n    }\n  }\n':
     types.GetCharacterDetailsDocument,
   '\n  query GetEpisodes($page: Int) {\n    episodes(page: $page) {\n      results {\n        id\n        name\n        episode\n        air_date\n        characters {\n          id\n          image\n        }\n      }\n      info {\n        next\n      }\n    }\n  }\n':
     types.GetEpisodesDocument,
@@ -44,8 +44,8 @@ export function gql(
  * The gql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
  */
 export function gql(
-  source: '\n  query GetCharacterDetails($characterId: ID!) {\n    character(id: $characterId) {\n      name\n      image\n      gender\n      status\n      species\n      origin {\n        name\n      }\n      location {\n        name\n      }\n      episode {\n        id\n        air_date\n        episode\n        created\n      }\n    }\n  }\n',
-): (typeof documents)['\n  query GetCharacterDetails($characterId: ID!) {\n    character(id: $characterId) {\n      name\n      image\n      gender\n      status\n      species\n      origin {\n        name\n      }\n      location {\n        name\n      }\n      episode {\n        id\n        air_date\n        episode\n        created\n      }\n    }\n  }\n'];
+  source: '\n  query GetCharacterDetails($characterId: ID!) {\n    character(id: $characterId) {\n      id\n      name\n      image\n      gender\n      status\n      species\n      origin {\n        name\n      }\n      location {\n        name\n      }\n      episode {\n        id\n        air_date\n        episode\n        created\n      }\n    }\n  }\n',
+): (typeof documents)['\n  query GetCharacterDetails($characterId: ID!) {\n    character(id: $characterId) {\n      id\n      name\n      image\n      gender\n      status\n      species\n      origin {\n        name\n      }\n      location {\n        name\n      }\n      episode {\n        id\n        air_date\n        episode\n        created\n      }\n    }\n  }\n'];
 /**
  * The gql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
  */

@@ -7,11 +7,24 @@ import { EpisodeItem } from './Episodes.types';
 import { EpisodesListSkeleton } from './components/EpisodesListSkeleton';
 
 export const EpisodesScreen: React.FC = () => {
-  const { episodes, hasMoreToLoad, onEpisodesListEndReached } = useEpisodesScreen();
+  const {
+    episodes,
+    hasMoreToLoad,
+    favoriteEpisodesIds,
+    handleToggleFavorite,
+    onEpisodesListEndReached,
+  } = useEpisodesScreen();
 
-  const RenderCharacter: ListRenderItem<Partial<EpisodeItem>> = useCallback(
-    ({ item }) => <EpisodeCard key={item?.id} episode={item} />,
-    [],
+  const RenderEpisode: ListRenderItem<Partial<EpisodeItem>> = useCallback(
+    ({ item }) => (
+      <EpisodeCard
+        key={item?.id}
+        episode={item}
+        isFavorite={favoriteEpisodesIds.includes(item?.id)}
+        handlePressFavorite={() => handleToggleFavorite(item)}
+      />
+    ),
+    [handleToggleFavorite, favoriteEpisodesIds],
   );
 
   return (
@@ -19,7 +32,8 @@ export const EpisodesScreen: React.FC = () => {
       <S.EpisodeList
         data={episodes}
         estimatedItemSize={200}
-        renderItem={RenderCharacter}
+        renderItem={RenderEpisode}
+        extraData={favoriteEpisodesIds}
         showsVerticalScrollIndicator={false}
         onEndReached={onEpisodesListEndReached}
         ListEmptyComponent={EpisodesListSkeleton}

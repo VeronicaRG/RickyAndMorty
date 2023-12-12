@@ -21,6 +21,7 @@ export const GET_CHARACTERS = gql(`
 export const GET_CHARACTER_DETAILS = gql(`
   query GetCharacterDetails($characterId: ID!) {
     character(id: $characterId) {
+      id
       name
       image
       gender
