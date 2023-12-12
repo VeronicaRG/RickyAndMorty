@@ -8,6 +8,7 @@
   "i18n-ally.localesPaths": [ "src/languages/locales" ],
   "cSpell.language": "en,pt_BR",
   "cSpell.words": [
+    "mmkv",
     "morty",
     "Morty",
     "pluralrules",

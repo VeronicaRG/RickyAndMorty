@@ -10,6 +10,9 @@ import { Routes } from '@src/routes';
 import * as S from './App.styles';
 import { ApolloProvider } from '@apollo/client';
 import { apolloClient } from './services/api';
+import { Provider as ReduxProvider } from 'react-redux';
+import { PersistGate } from 'redux-persist/integration/react';
+import store, { persist } from './redux';
 
 const App: React.FC = () => {
   return (
@@ -17,7 +20,11 @@ const App: React.FC = () => {
       <S.StatusBar />
       <ThemeProvider>
         <ApolloProvider client={apolloClient}>
-          <Routes />
+          <ReduxProvider store={store}>
+            <PersistGate loading={null} persistor={persist}>
+              <Routes />
+            </PersistGate>
+          </ReduxProvider>
         </ApolloProvider>
       </ThemeProvider>
     </SafeAreaProvider>
