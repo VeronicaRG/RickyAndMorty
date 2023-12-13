@@ -2,53 +2,52 @@
 
 >Projeto feito como teste prático para empresa **_Datum_**.
 
-### Passo 1 - Inicializando o Metro.
+![Alt text](/docs/assets/img/App.png)
 
-Primeiro depois de clonar o projeto você precisa baixar as dependências, com os seguintes comandos:
+### Buildar o Aplicativo
 
-```bash
-# usando npm
-npm -i
+[Clique aqui para ver o tutorial](/docs/setup.md)
 
-# OU usando Yarn
-yarn
-```
-Depois você precisa iniciar o **Metro**, que é o JavaScript _bundler_ que vem com o React Native.
+## 🛠️ Features
 
-Para iniciar o Metro, rode o seguinte comando estando na posta _root_ do projeto:
-
-
-```bash
-# usando npm
-npm start
-
-# OU usando Yarn
-yarn start
-```
-
-### Passo 2: Inicializando a aplicação.
-
-Deixe o Metro Bundler rodando no terminal conforme o passo anterior, abra um novo terminal e da pasta _root_ do projeto rode os seguintes comandos para iniciar o simulado de **Android** ou **iOS**
+-   [X] Tela que exibe os personagens
+-   [X] Tela que exibe os detalhes dos personagens
+-   [X] Tela que exibe os episódio
+-   [X] Favoritar personagem ou episódio
+-   [X] Tela que exibe os seus favoritos
 
 
-#### Para Android
+## ✨ Tecnologias
 
-```bash
-# usando npm
-npm run android
+-   [X] React Native
+-   [X] TypeScript
+-   [X] Styled Components
+-   [X] React Navigation 
+-   [X] i18next
+-   [X] GraphQL
+-   [X] Redux
 
-# OU usando Yarn
-yarn android
-```
+## ⚖️ Decisões do Projeto:
 
-#### Para iOS
+-   [X] Padrão MVVM de arquitetura para separar a parte visual das regras de negócio.
+-   [X] Usar o reactotron como ferramenta de debugger para poder visualizar as requests e também o redux em tempo real.
+-   [X] Usar o MMKV ao invés do Async Storage pelo ganho de performance ao salvar e ler arquivos (+ de 10x).
+-   [X] Codegen do GraphQL para automatizar a tipagem.
+-   [X] i18N para centralizar os textos e possibilitar a internacionalização.
+-   [X] Redux para gerenciamento de estados pela integração com Reactotron e com o Redux Persist.
+-   [X] FlashList pela renderização mais performática que a FlatList.
+-   [X] Pegar imagens de uma segunda API (MovieDB) para melhorar a visualização da tela extra que decidi criar (Tela de Episódios).
+-   [X] FastImage pelo carregamento mais rápido e cache de imagens no device.
 
-```bash
-# usando npm
-npm run ios
+## 🚀 Feature que pretendo implementar para deixar como portfolio
 
-# OU usando Yarn
-yarn ios
-```
+-   [ ] Teste unitário com Jest.
+-   [ ] Teste E2E com Maestro.
+-   [ ] Filtro na tela de personagens por espécie e nome utilizando formulário com react hook forms.
+-   [ ] Adicionar as cores utilizadas no tema do styled components e passar a consumir do Tema em todo o app.
+-   [ ] Tela de configurações para habilitar a troca do idioma do aplicativo.
 
-Se tudo tiver funcionado corretamente você deve ver o simulador da plataforma escolhida com rodando o projeto do rick & morty. :tada:
+
+## 🔖 Layout
+
+[Clique aqui para ver as inspirações visuais do projeto](/docs/insights.md)
