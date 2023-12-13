@@ -4,6 +4,7 @@ import { useCharactersScreen } from './Characters.logic';
 import { CharacterCard } from '@components/CharacterCard';
 import { ListRenderItem } from '@shopify/flash-list';
 import { Character } from '@core-types/graphql/graphql';
+import { CharactersListSkeleton } from './components/CharactersListSkeleton';
 
 export const CharactersScreen: React.FC = () => {
   const { characters, handlePressCharacter, onCharactersListEndReached, hasMoreToLoad } =
@@ -27,6 +28,7 @@ export const CharactersScreen: React.FC = () => {
         renderItem={RenderCharacter}
         showsVerticalScrollIndicator={false}
         onEndReached={onCharactersListEndReached}
+        ListEmptyComponent={CharactersListSkeleton}
         ListFooterComponent={hasMoreToLoad ? <S.Loading /> : undefined}
       />
     </S.Container>
