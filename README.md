@@ -15,6 +15,7 @@
 -   [X] Tela que exibe os episódio
 -   [X] Favoritar personagem ou episódio
 -   [X] Tela que exibe os seus favoritos
+-   [X] Teste unitário com Jest.
 
 
 ## ✨ Tecnologias
@@ -41,7 +42,6 @@
 
 ## 🚀 Feature que pretendo implementar para deixar como portfolio
 
--   [ ] Teste unitário com Jest.
 -   [ ] Teste E2E com Maestro.
 -   [ ] Filtro na tela de personagens por espécie e nome utilizando formulário com react hook forms.
 -   [ ] Adicionar as cores utilizadas no tema do styled components e passar a consumir do Tema em todo o app.
