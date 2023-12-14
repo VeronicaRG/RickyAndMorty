@@ -3,5 +3,6 @@ export interface FavoriteIconProps {
   widthIcon?: number;
   heightIcon?: number;
   isFavorite: boolean;
-  handlePressFavorite(): void;
+  handlePressFavorite: () => void;
+  testID?: string;
 }

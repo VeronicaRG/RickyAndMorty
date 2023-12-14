@@ -11,12 +11,13 @@ export const CharacterDetailsScreen: React.FC = ({}) => {
 
   const { character, properties, isFavorite, handlePressGoBack, handleToggleFavorite } =
     useCharacterDetailsScreen();
-  const { name, status, image: imageUrl } = character;
+  const { id, name, status, image: imageUrl } = character;
 
   return (
-    <S.Container>
+    <S.Container testID={`character-${id}`}>
       <S.ScrollView>
         <Header
+          testID={`character-${id}-`}
           isFavorite={isFavorite}
           handlePressGoBack={handlePressGoBack}
           handlePressFavorite={handleToggleFavorite}
@@ -32,11 +33,16 @@ export const CharacterDetailsScreen: React.FC = ({}) => {
           </S.ImageWrapper>
         )}
         <S.Name>{name}</S.Name>
-        {properties.map(({ title, data }) => (
+        {properties.map(({ title, data, testID }) => (
           <Fragment key={title}>
             <S.PropertiesTitle>{title}</S.PropertiesTitle>
-            {data.map(({ value, type, id }) => (
-              <Property key={id} label={type} value={value!} />
+            {data.map(({ value, type, id }, index) => (
+              <Property
+                key={id}
+                label={type}
+                value={value!}
+                testID={`${testID}-${index}-property`}
+              />
             ))}
           </Fragment>
         ))}

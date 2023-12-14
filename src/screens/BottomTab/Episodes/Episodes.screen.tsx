@@ -31,13 +31,14 @@ export const EpisodesScreen: React.FC = () => {
     <S.Container>
       <S.EpisodeList
         data={episodes}
+        testID="episode-list"
         estimatedItemSize={200}
         renderItem={RenderEpisode}
         extraData={favoriteEpisodesIds}
         showsVerticalScrollIndicator={false}
-        onEndReached={onEpisodesListEndReached}
         ListEmptyComponent={EpisodesListSkeleton}
         ListFooterComponent={hasMoreToLoad ? <S.Loading /> : undefined}
+        onEndReached={episodes.length ? onEpisodesListEndReached : undefined}
       />
     </S.Container>
   );

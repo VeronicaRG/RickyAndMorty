@@ -1,6 +1,5 @@
-import { useAppSelector } from '@src/hooks/redux';
+import { useAppDispatch, useAppSelector } from '@src/hooks/redux';
 import { useCallback } from 'react';
-import { useDispatch } from 'react-redux';
 import { EpisodeItem } from '../Episodes/Episodes.types';
 import { ArrayElement, DeepPartial } from '@core-types/global/utils';
 import { addEpisode, removeEpisode } from '@src/redux/store/favorites';
@@ -9,7 +8,7 @@ import { useNavigation } from '@react-navigation/native';
 export const useFavoriteScreen = () => {
   const { navigate } = useNavigation();
 
-  const dispatch = useDispatch();
+  const dispatch = useAppDispatch();
   const favoriteEpisodes = useAppSelector(state => state.favorites.episodes);
   const favoriteCharacters = useAppSelector(state => state.favorites.characters);
   const favoriteEpisodesIds = favoriteEpisodes.map(episode => episode.id);

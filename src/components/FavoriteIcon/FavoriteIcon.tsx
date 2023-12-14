@@ -9,13 +9,25 @@ export const FavoriteIcon: React.FC<FavoriteIconProps> = ({
   heightIcon = 36,
   handlePressFavorite,
   iconColor = '#ffff',
+  testID = '',
 }) => {
   return (
-    <TouchableOpacity onPress={handlePressFavorite}>
+    <TouchableOpacity onPress={handlePressFavorite} testID={`${testID}favorite-icon-button`}>
       {isFavorite ? (
-        <Icon width={widthIcon} height={heightIcon} name="fav-colorful" />
+        <Icon
+          testID={`${testID}favorite-icon-colorful`}
+          width={widthIcon}
+          height={heightIcon}
+          name="fav-colorful"
+        />
       ) : (
-        <Icon width={widthIcon} height={heightIcon} color={iconColor} name="fav-monochrome" />
+        <Icon
+          color={iconColor}
+          width={widthIcon}
+          height={heightIcon}
+          testID={`${testID}favorite-icon-monochrome`}
+          name="fav-monochrome"
+        />
       )}
     </TouchableOpacity>
   );

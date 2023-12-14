@@ -6,16 +6,21 @@ import { Icon } from '@components/Icon';
 import { FavoriteIcon } from '@components/FavoriteIcon';
 
 export const Header: React.FC<HeaderProps> = ({
+  testID,
   isFavorite,
   handlePressGoBack,
   handlePressFavorite,
 }) => {
   return (
     <S.Header>
-      <S.HeaderOption onPress={handlePressGoBack}>
+      <S.HeaderOption testID={`${testID}goBack`} onPress={handlePressGoBack}>
         <Icon name="arrow-left" />
       </S.HeaderOption>
-      <FavoriteIcon isFavorite={isFavorite} handlePressFavorite={handlePressFavorite} />
+      <FavoriteIcon
+        testID={testID}
+        isFavorite={isFavorite}
+        handlePressFavorite={handlePressFavorite}
+      />
     </S.Header>
   );
 };

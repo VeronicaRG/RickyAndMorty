@@ -4,18 +4,17 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import { EpisodeItem, SeasonDetails } from './Episodes.types';
 import { isTruthy } from '@src/utils/validation/isTruthy';
 import { getImageUrlFromImageData, getSeasonData, getSeasonsFromResults } from './Episodes.utils';
-import { useAppSelector } from '@src/hooks/redux';
-import { useDispatch } from 'react-redux';
+import { useAppDispatch, useAppSelector } from '@src/hooks/redux';
 import { addEpisode, removeEpisode } from '@src/redux/store/favorites';
 import { DeepPartial } from '@apollo/client/utilities';
 
 export const useEpisodesScreen = () => {
-  const page = useRef(0);
+  const page = useRef(1);
 
   const [hasMoreToLoad, setHasMoreToLoad] = useState(false);
   const [episodes, setEpisodes] = useState<EpisodeItem[]>([]);
 
-  const dispatch = useDispatch();
+  const dispatch = useAppDispatch();
   const favoriteEpisodes = useAppSelector(state => state.favorites.episodes);
   const favoriteEpisodesIds = favoriteEpisodes.map(episode => episode.id);
 
@@ -38,7 +37,7 @@ export const useEpisodesScreen = () => {
         return { ...item, image: getImageUrlFromImageData(seasonExternalData, item.episode!) };
       });
 
-      if (page.current === 0) return setEpisodes(resultsWithImages);
+      if (page.current === 1) return setEpisodes(resultsWithImages);
       return setEpisodes(currentList => [...currentList, ...resultsWithImages]);
     },
   });

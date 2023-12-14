@@ -18,6 +18,7 @@ export const createListProperties = (
 
   const properties = {
     title: i18n.t('characterDetails:property'),
+    testID: 'properties',
     data: [
       {
         id: 'genre',
@@ -45,6 +46,7 @@ export const createListProperties = (
 
   const whereabout = {
     title: i18n.t('characterDetails:whereabout'),
+    testID: 'whereabout',
     data: [
       {
         id: 'origin',
@@ -73,6 +75,7 @@ export const createListProperties = (
 
   const chapters = {
     title: i18n.t('characterDetails:chapters'),
+    testID: 'chapter',
     data: episodes.map(item => ({
       id: item?.id,
       type: item?.episode || '',

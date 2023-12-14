@@ -11,7 +11,7 @@ export const reactotron = Reactotron.configure({
   .useReactNative({
     editor: false,
     networking: {
-      ignoreUrls: /symbolicate|svg|generate_204|graphql/,
+      ignoreUrls: /symbolicate|svg|generate_204/,
     },
     overlay: false,
   })

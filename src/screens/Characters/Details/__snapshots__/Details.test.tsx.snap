@@ -1,0 +1,5714 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Screen: CharacterDetailsScreen should render screen after all loads 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "backgroundColor": "#443c3a",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "paddingTop": 10,
+      }
+    }
+    testID="character-1"
+  >
+    <RCTScrollView
+      contentContainerStyle={
+        {
+          "alignItems": "center",
+          "flexGrow": 1,
+          "paddingBottom": 24,
+        }
+      }
+      style={{}}
+    >
+      <View>
+        <View
+          style={
+            {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginTop": 0,
+              "paddingBottom": 0,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+              "paddingTop": 0,
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "height": 36,
+                "justifyContent": "center",
+                "opacity": 1,
+                "width": 36,
+              }
+            }
+            testID="character-1-goBack"
+          >
+            <SvgMock
+              color="#fff"
+              height={30}
+              width={30}
+            />
+          </View>
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "opacity": 1,
+              }
+            }
+            testID="character-1-favorite-icon-button"
+          >
+            <SvgMock
+              color="#ffff"
+              height={36}
+              testID="character-1-favorite-icon-monochrome"
+              width={36}
+            />
+          </View>
+        </View>
+        <View
+          status="Alive"
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "#5acd90",
+              "borderBottomLeftRadius": 100,
+              "borderBottomRightRadius": 100,
+              "borderTopLeftRadius": 100,
+              "borderTopRightRadius": 100,
+              "height": 200,
+              "justifyContent": "center",
+              "marginBottom": 12,
+              "width": 200,
+            }
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "overflow": "hidden",
+                },
+                {
+                  "alignItems": "center",
+                  "borderBottomLeftRadius": 95,
+                  "borderBottomRightRadius": 95,
+                  "borderTopLeftRadius": 95,
+                  "borderTopRightRadius": 95,
+                  "height": 190,
+                  "width": 190,
+                },
+              ]
+            }
+          >
+            <FastImageView
+              defaultSource={null}
+              resizeMode="cover"
+              style={
+                {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            />
+          </View>
+          <View
+            status="Alive"
+            style={
+              {
+                "backgroundColor": "#5acd90",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "bottom": -10,
+                "paddingBottom": 6,
+                "paddingLeft": 8,
+                "paddingRight": 8,
+                "paddingTop": 6,
+                "position": "absolute",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "textAlign": "center",
+                }
+              }
+            >
+              Vivo
+            </Text>
+          </View>
+        </View>
+        <Text
+          style={
+            {
+              "color": "#ffffff",
+              "fontSize": 26,
+              "fontWeight": "bold",
+              "marginTop": 16,
+              "textAlign": "center",
+            }
+          }
+        >
+          Rick Sanchez
+        </Text>
+        <Text
+          style={
+            {
+              "color": "#ffffff",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "marginBottom": 16,
+              "marginLeft": 0,
+              "marginRight": 0,
+              "marginTop": 16,
+              "textAlign": "center",
+            }
+          }
+        >
+          Propriedades
+        </Text>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="properties-0-property-label"
+            >
+              Gênero
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="properties-0-property-value"
+            >
+              Masculino
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="properties-1-property-label"
+            >
+              Tipo
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="properties-1-property-value"
+            >
+              Humano
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="properties-2-property-label"
+            >
+              Status
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="properties-2-property-value"
+            >
+              Vivo
+            </Text>
+          </View>
+        </View>
+        <Text
+          style={
+            {
+              "color": "#ffffff",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "marginBottom": 16,
+              "marginLeft": 0,
+              "marginRight": 0,
+              "marginTop": 16,
+              "textAlign": "center",
+            }
+          }
+        >
+          Paradeiro
+        </Text>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="whereabout-0-property-label"
+            >
+              Origem
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="whereabout-0-property-value"
+            >
+              Earth (C-137)
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="whereabout-1-property-label"
+            >
+              Localização
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="whereabout-1-property-value"
+            >
+              Citadel of Ricks
+            </Text>
+          </View>
+        </View>
+        <Text
+          style={
+            {
+              "color": "#ffffff",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "marginBottom": 16,
+              "marginLeft": 0,
+              "marginRight": 0,
+              "marginTop": 16,
+              "textAlign": "center",
+            }
+          }
+        >
+          Episódios
+        </Text>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-0-property-label"
+            >
+              S01E01
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-0-property-value"
+            >
+              2 de dezembro de 2013
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-1-property-label"
+            >
+              S01E02
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-1-property-value"
+            >
+              9 de dezembro de 2013
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-2-property-label"
+            >
+              S01E03
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-2-property-value"
+            >
+              16 de dezembro de 2013
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-3-property-label"
+            >
+              S01E04
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-3-property-value"
+            >
+              13 de janeiro de 2014
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-4-property-label"
+            >
+              S01E05
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-4-property-value"
+            >
+              20 de janeiro de 2014
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-5-property-label"
+            >
+              S01E06
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-5-property-value"
+            >
+              27 de janeiro de 2014
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-6-property-label"
+            >
+              S01E07
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-6-property-value"
+            >
+              10 de março de 2014
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-7-property-label"
+            >
+              S01E08
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-7-property-value"
+            >
+              17 de março de 2014
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-8-property-label"
+            >
+              S01E09
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-8-property-value"
+            >
+              24 de março de 2014
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-9-property-label"
+            >
+              S01E10
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-9-property-value"
+            >
+              7 de abril de 2014
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-10-property-label"
+            >
+              S01E11
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-10-property-value"
+            >
+              14 de abril de 2014
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-11-property-label"
+            >
+              S02E01
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-11-property-value"
+            >
+              26 de julho de 2015
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-12-property-label"
+            >
+              S02E02
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-12-property-value"
+            >
+              2 de agosto de 2015
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-13-property-label"
+            >
+              S02E03
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-13-property-value"
+            >
+              9 de agosto de 2015
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-14-property-label"
+            >
+              S02E04
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-14-property-value"
+            >
+              16 de agosto de 2015
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-15-property-label"
+            >
+              S02E05
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-15-property-value"
+            >
+              23 de agosto de 2015
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-16-property-label"
+            >
+              S02E06
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-16-property-value"
+            >
+              30 de agosto de 2015
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-17-property-label"
+            >
+              S02E07
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-17-property-value"
+            >
+              13 de setembro de 2015
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-18-property-label"
+            >
+              S02E08
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-18-property-value"
+            >
+              20 de setembro de 2015
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-19-property-label"
+            >
+              S02E09
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-19-property-value"
+            >
+              27 de setembro de 2015
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-20-property-label"
+            >
+              S02E10
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-20-property-value"
+            >
+              4 de outubro de 2015
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-21-property-label"
+            >
+              S03E01
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-21-property-value"
+            >
+              1 de abril de 2017
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-22-property-label"
+            >
+              S03E02
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-22-property-value"
+            >
+              30 de julho de 2017
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-23-property-label"
+            >
+              S03E03
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-23-property-value"
+            >
+              6 de agosto de 2017
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-24-property-label"
+            >
+              S03E04
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-24-property-value"
+            >
+              13 de agosto de 2017
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-25-property-label"
+            >
+              S03E05
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-25-property-value"
+            >
+              20 de agosto de 2017
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-26-property-label"
+            >
+              S03E06
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-26-property-value"
+            >
+              27 de agosto de 2017
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-27-property-label"
+            >
+              S03E07
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-27-property-value"
+            >
+              10 de setembro de 2017
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-28-property-label"
+            >
+              S03E08
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-28-property-value"
+            >
+              17 de setembro de 2017
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-29-property-label"
+            >
+              S03E09
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-29-property-value"
+            >
+              24 de setembro de 2017
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-30-property-label"
+            >
+              S03E10
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-30-property-value"
+            >
+              1 de outubro de 2017
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-31-property-label"
+            >
+              S04E01
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-31-property-value"
+            >
+              10 de novembro de 2019
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-32-property-label"
+            >
+              S04E02
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-32-property-value"
+            >
+              17 de novembro de 2019
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-33-property-label"
+            >
+              S04E03
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-33-property-value"
+            >
+              24 de novembro de 2019
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-34-property-label"
+            >
+              S04E04
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-34-property-value"
+            >
+              8 de dezembro de 2019
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-35-property-label"
+            >
+              S04E05
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-35-property-value"
+            >
+              15 de dezembro de 2019
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-36-property-label"
+            >
+              S04E06
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-36-property-value"
+            >
+              3 de maio de 2020
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-37-property-label"
+            >
+              S04E07
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-37-property-value"
+            >
+              10 de maio de 2020
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-38-property-label"
+            >
+              S04E08
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-38-property-value"
+            >
+              17 de maio de 2020
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-39-property-label"
+            >
+              S04E09
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-39-property-value"
+            >
+              24 de maio de 2020
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-40-property-label"
+            >
+              S04E10
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-40-property-value"
+            >
+              31 de maio de 2020
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-41-property-label"
+            >
+              S05E01
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-41-property-value"
+            >
+              20 de junho de 2021
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-42-property-label"
+            >
+              S05E02
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-42-property-value"
+            >
+              27 de junho de 2021
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-43-property-label"
+            >
+              S05E03
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-43-property-value"
+            >
+              4 de julho de 2021
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-44-property-label"
+            >
+              S05E04
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-44-property-value"
+            >
+              11 de julho de 2021
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-45-property-label"
+            >
+              S05E05
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-45-property-value"
+            >
+              18 de julho de 2021
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-46-property-label"
+            >
+              S05E06
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-46-property-value"
+            >
+              25 de julho de 2021
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-47-property-label"
+            >
+              S05E07
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-47-property-value"
+            >
+              1 de agosto de 2021
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-48-property-label"
+            >
+              S05E08
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-48-property-value"
+            >
+              8 de agosto de 2021
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-49-property-label"
+            >
+              S05E09
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-49-property-value"
+            >
+              5 de setembro de 2021
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="chapter-50-property-label"
+            >
+              S05E10
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="chapter-50-property-value"
+            >
+              5 de setembro de 2021
+            </Text>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</RNCSafeAreaProvider>
+`;
+
+exports[`Screen: CharacterDetailsScreen should render screen with loading state 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "backgroundColor": "#443c3a",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "paddingTop": 10,
+      }
+    }
+    testID="character-1"
+  >
+    <RCTScrollView
+      contentContainerStyle={
+        {
+          "alignItems": "center",
+          "flexGrow": 1,
+          "paddingBottom": 24,
+        }
+      }
+      style={{}}
+    >
+      <View>
+        <View
+          style={
+            {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginTop": 0,
+              "paddingBottom": 0,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+              "paddingTop": 0,
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "height": 36,
+                "justifyContent": "center",
+                "opacity": 1,
+                "width": 36,
+              }
+            }
+            testID="character-1-goBack"
+          >
+            <SvgMock
+              color="#fff"
+              height={30}
+              width={30}
+            />
+          </View>
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "opacity": 1,
+              }
+            }
+            testID="character-1-favorite-icon-button"
+          >
+            <SvgMock
+              color="#ffff"
+              height={36}
+              testID="character-1-favorite-icon-monochrome"
+              width={36}
+            />
+          </View>
+        </View>
+        <View
+          status="Alive"
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "#5acd90",
+              "borderBottomLeftRadius": 100,
+              "borderBottomRightRadius": 100,
+              "borderTopLeftRadius": 100,
+              "borderTopRightRadius": 100,
+              "height": 200,
+              "justifyContent": "center",
+              "marginBottom": 12,
+              "width": 200,
+            }
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "overflow": "hidden",
+                },
+                {
+                  "alignItems": "center",
+                  "borderBottomLeftRadius": 95,
+                  "borderBottomRightRadius": 95,
+                  "borderTopLeftRadius": 95,
+                  "borderTopRightRadius": 95,
+                  "height": 190,
+                  "width": 190,
+                },
+              ]
+            }
+          >
+            <FastImageView
+              defaultSource={null}
+              resizeMode="cover"
+              style={
+                {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            />
+          </View>
+          <View
+            status="Alive"
+            style={
+              {
+                "backgroundColor": "#5acd90",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "bottom": -10,
+                "paddingBottom": 6,
+                "paddingLeft": 8,
+                "paddingRight": 8,
+                "paddingTop": 6,
+                "position": "absolute",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "textAlign": "center",
+                }
+              }
+            >
+              Vivo
+            </Text>
+          </View>
+        </View>
+        <Text
+          style={
+            {
+              "color": "#ffffff",
+              "fontSize": 26,
+              "fontWeight": "bold",
+              "marginTop": 16,
+              "textAlign": "center",
+            }
+          }
+        >
+          Rick Sanchez
+        </Text>
+        <Text
+          style={
+            {
+              "color": "#ffffff",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "marginBottom": 16,
+              "marginLeft": 0,
+              "marginRight": 0,
+              "marginTop": 16,
+              "textAlign": "center",
+            }
+          }
+        >
+          Propriedades
+        </Text>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="properties-0-property-label"
+            >
+              Gênero
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="properties-0-property-value"
+            >
+              Masculino
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="properties-1-property-label"
+            >
+              Tipo
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="properties-1-property-value"
+            >
+              Humano
+            </Text>
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="properties-2-property-label"
+            >
+              Status
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                }
+              }
+              testID="properties-2-property-value"
+            >
+              Vivo
+            </Text>
+          </View>
+        </View>
+        <Text
+          style={
+            {
+              "color": "#ffffff",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "marginBottom": 16,
+              "marginLeft": 0,
+              "marginRight": 0,
+              "marginTop": 16,
+              "textAlign": "center",
+            }
+          }
+        >
+          Paradeiro
+        </Text>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="whereabout-0-property-label"
+            >
+              Origem
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <View
+              testID="whereabout-0-property-skeleton-right"
+            />
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#ffffff",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+              testID="whereabout-1-property-label"
+            >
+              Localização
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <View
+              testID="whereabout-1-property-skeleton-right"
+            />
+          </View>
+        </View>
+        <Text
+          style={
+            {
+              "color": "#ffffff",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "marginBottom": 16,
+              "marginLeft": 0,
+              "marginRight": 0,
+              "marginTop": 16,
+              "textAlign": "center",
+            }
+          }
+        >
+          Episódios
+        </Text>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <View
+              testID="chapter-0-property-skeleton-left"
+            />
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <View
+              testID="chapter-0-property-skeleton-right"
+            />
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <View
+              testID="chapter-1-property-skeleton-left"
+            />
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <View
+              testID="chapter-1-property-skeleton-right"
+            />
+          </View>
+        </View>
+        <View
+          flexible={true}
+          style={
+            {
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 32,
+              "marginBottom": 4,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 4,
+              "maxHeight": 32,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f44",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <View
+              testID="chapter-2-property-skeleton-left"
+            />
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#926f4477",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "marginLeft": 10,
+              }
+            }
+          >
+            <View
+              testID="chapter-2-property-skeleton-right"
+            />
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</RNCSafeAreaProvider>
+`;

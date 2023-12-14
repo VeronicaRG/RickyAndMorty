@@ -4,15 +4,14 @@ import { GET_CHARACTER_DETAILS } from '@src/graphql/character.graphql';
 import { CharactersNavigatorParams } from '@src/routes/navigators/Characters';
 import { useCallback, useMemo } from 'react';
 import { createListProperties } from './Details.utils';
-import { useAppSelector } from '@src/hooks/redux';
-import { useDispatch } from 'react-redux';
+import { useAppDispatch, useAppSelector } from '@src/hooks/redux';
 import { addCharacter, removeCharacter } from '@src/redux/store/favorites';
 
 export const useCharacterDetailsScreen = () => {
   const { goBack } = useNavigation();
   const { params } = useRoute<RouteProp<CharactersNavigatorParams, 'Details'>>();
 
-  const dispatch = useDispatch();
+  const dispatch = useAppDispatch();
   const favoriteCharacter = useAppSelector(state => state.favorites.characters);
 
   const isFavorite = useMemo(

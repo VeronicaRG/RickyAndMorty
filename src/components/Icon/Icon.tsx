@@ -12,7 +12,7 @@ export const svgs = {
   'fav-monochrome': () => require('@svgs/fav-monochrome.svg'),
   'rick-monochrome': () => require('@svgs/rick-monochrome.svg'),
   'morty-monochrome': () => require('@svgs/morty-monochrome.svg'),
-};
+} as const;
 
 export const Icon: React.FC<IconProps> = ({ name = 'item', ...rest }) => {
   const Component = svgs[name]();

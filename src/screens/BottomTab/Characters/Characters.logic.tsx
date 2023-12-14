@@ -7,7 +7,7 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import { CharacterItem } from './Characters.types';
 
 export const useCharactersScreen = () => {
-  const page = useRef(0);
+  const page = useRef(1);
 
   const [hasMoreToLoad, setHasMoreToLoad] = useState(false);
   const [characters, setCharacters] = useState<CharacterItem[]>([]);
@@ -19,7 +19,7 @@ export const useCharactersScreen = () => {
       if (!fetchedCharacters || !fetchedCharacters.results) return;
       setHasMoreToLoad(Boolean(fetchedCharacters.info?.next));
       const results = fetchedCharacters?.results.filter(isTruthy);
-      if (page.current === 0) return setCharacters(results);
+      if (page.current === 1) return setCharacters(results);
       return setCharacters(currentList => [...currentList, ...results]);
     },
   });

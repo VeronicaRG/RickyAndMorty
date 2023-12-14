@@ -24,12 +24,13 @@ export const CharactersScreen: React.FC = () => {
       <S.CharacterList
         numColumns={2}
         data={characters}
+        testID="character-list"
         estimatedItemSize={200}
         renderItem={RenderCharacter}
         showsVerticalScrollIndicator={false}
-        onEndReached={onCharactersListEndReached}
         ListEmptyComponent={CharactersListSkeleton}
         ListFooterComponent={hasMoreToLoad ? <S.Loading /> : undefined}
+        onEndReached={characters.length ? onCharactersListEndReached : undefined}
       />
     </S.Container>
   );

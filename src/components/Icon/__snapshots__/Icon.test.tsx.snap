@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Icon should render component 1`] = `
+[
+  <SvgMock
+    color="#fff"
+    height={30}
+    width={30}
+  />,
+  <SvgMock
+    color="#fff"
+    height={30}
+    width={30}
+  />,
+  <SvgMock
+    color="#fff"
+    height={30}
+    width={30}
+  />,
+  <SvgMock
+    color="#fff"
+    height={30}
+    width={30}
+  />,
+  <SvgMock
+    color="#fff"
+    height={30}
+    width={30}
+  />,
+  <SvgMock
+    color="#fff"
+    height={30}
+    width={30}
+  />,
+  <SvgMock
+    color="#fff"
+    height={30}
+    width={30}
+  />,
+  <SvgMock
+    color="#fff"
+    height={30}
+    width={30}
+  />,
+  <SvgMock
+    color="#fff"
+    height={30}
+    width={30}
+  />,
+  <SvgMock
+    color="#fff"
+    height={30}
+    width={30}
+  />,
+]
+`;
